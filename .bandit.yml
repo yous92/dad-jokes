@@ -1,0 +1,35 @@
+### Bandit config file generated for dad-jokes project
+
+# Skip tests
+skips: []
+
+# List any particular tests you want to enable here
+tests: []
+
+# Directories to exclude
+exclude_dirs: [
+    'tests',
+    'venv',
+    '.git',
+    '__pycache__'
+]
+
+# File patterns to exclude
+exclude: []
+
+# Severity level threshold
+# LOW: 1, MEDIUM: 2, HIGH: 3
+level: 1
+
+# Confidence level threshold
+# LOW: 1, MEDIUM: 2, HIGH: 3
+confidence: 1
+
+# Output format
+output_format: text
+
+# Number of lines of code to output for each issue
+lines: 3
+
+# Show code at line of issue
+show_code: true
